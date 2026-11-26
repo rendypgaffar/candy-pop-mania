@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211442">
+  <title>Candy Pop Mania Ultimate</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="game">
+    <div class="logo">🍬</div>
+    <h1>Candy Pop Mania</h1>
+    <p class="subtitle">ULTIMATE EDITION</p>
+
+    <div class="stats">
+      <div class="stat">
+        <span>SCORE</span>
+        <strong id="score">0</strong>
+      </div>
+      <div class="stat best">
+        <span>🏆 BEST</span>
+        <strong id="best">0</strong>
+      </div>
+      <div class="stat">
+        <span>TIME</span>
+        <strong><span id="timer">60</span>s</strong>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="start">START GAME</button>
+      <button id="soundToggle" class="sound-btn">🔊 SOUND ON</button>
+    </div>
+
+    <div class="legend">
+      <span>💣 4-match bomb</span>
+      <span>⚡ 5-match lightning</span>
+    </div>
+
+    <div id="board"></div>
+
+    <p id="message">Ready to play?</p>
+    <p class="hint">Tap two neighbours or swipe a candy</p>
+    <p class="footer">CANDY POP MANIA · HAVE FUN!</p>
+  </main>
+
+  <script src="./game.js"></script>
+</body>
+</html>
